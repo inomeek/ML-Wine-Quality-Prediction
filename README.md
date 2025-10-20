@@ -91,17 +91,15 @@ This project was developed using **Python** in **Visual Studio Code (VS Code)** 
 ### 🔢 Data Handling & Analysis
 - `pandas` – For data manipulation  
 - `numpy` – For numerical operations  
-- `collections` – For counting and grouping data  
 
 ### 📊 Data Visualization
 - `matplotlib` – For plotting charts  
 - `seaborn` – For advanced visualizations  
 - `rich` – For styled CLI printing  
-- `IPython.display` – For improved notebook outputs  
 
 ### 🧼 Preprocessing & Sampling
 - `scikit-learn`:
-  - `PowerTransformer`, `StandardScaler` – For feature scaling  
+  - `StandardScaler` – For feature scaling  
   - `train_test_split`, `StratifiedKFold` – For data splitting and cross-validation  
 - `SMOTE` (via `imblearn`) – For handling class imbalance  
 
@@ -116,7 +114,6 @@ This project was developed using **Python** in **Visual Studio Code (VS Code)** 
 
 ### 📏 Evaluation
 - `classification_report`  
-- `accuracy_score`  
 - `confusion_matrix`  
 - `cross_val_score`  
 
