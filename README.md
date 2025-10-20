@@ -67,14 +67,16 @@ The dataset used for training is provided in the `data` folder. It contains vari
 
 ## 📈 Results
 
-The classification report will provide detailed metrics such as:
+- The classification report will provide detailed metrics such as:
+  - Precision
+  - Recall
+  - F1-Score
+  - Support
+  - Accuracy
+  - Macro Average
+  - Weighted Average
 
-Precision, Recall, F1-Score
+- A confusion matrix will also be displayed to help visualize model performance.
 
-Support, Accuracy
-
-Macro Average, Weighted Average
-
-A confusion matrix will also be displayed to help visualize model performance.
 
 ---
