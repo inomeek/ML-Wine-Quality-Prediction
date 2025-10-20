@@ -6,18 +6,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from rich import print
-from sklearn.preprocessing import PowerTransformer, StandardScaler
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.svm import SVC
 from imblearn.over_sampling import SMOTE
-from collections import Counter
 from sklearn.linear_model import LogisticRegression
 import pickle
-from IPython.display import display
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier, StackingClassifier
 import xgboost as xgb
+
 
 # %%
 # IMPORT DATASET
