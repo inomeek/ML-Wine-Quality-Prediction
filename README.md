@@ -1,4 +1,4 @@
-# 🍷 Wine Quality Prediction with Machine Learning | Red & White Wine Classification
+# Wine Quality Prediction with Machine Learning | Red & White Wine Classification
 
 This project focuses on predicting the quality of red and white wines using supervised machine learning techniques. Built on the popular **UCI Wine Quality Dataset**, the aim is to explore how various **physicochemical properties** such as acidity, alcohol, and sulfur dioxide levels influence wine quality classification.
 
@@ -8,7 +8,7 @@ The trained model is used to predict the quality of wine on new data and output 
 
 ---
 
-## 📌 Overview
+## Overview
 
 Wine quality prediction typically involves assessing wines based on features such as acidity, alcohol content, and sulfur levels. This project implements various machine learning techniques to classify wines into three quality categories: Low, Medium, and High.
 
@@ -22,7 +22,7 @@ Wine quality prediction typically involves assessing wines based on features suc
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset used for training is provided in the `data` folder. It contains various physicochemical properties of red and white wines and their corresponding quality scores.
 
@@ -49,7 +49,7 @@ The dataset used for training is provided in the `data` folder. It contains vari
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Data cleaning and preprocessing  
 - Exploratory Data Analysis (EDA)  
@@ -69,7 +69,7 @@ The dataset used for training is provided in the `data` folder. It contains vari
 
 ---
 
-## 📈 Results
+## Results
 
 - The classification report will provide detailed metrics such as:
   - Precision  
@@ -84,26 +84,26 @@ The dataset used for training is provided in the `data` folder. It contains vari
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 This project was developed using **Python** in **Visual Studio Code (VS Code)** and leverages the following libraries and tools:
 
-### 🔢 Data Handling & Analysis
+### Data Handling & Analysis
 - `pandas` – For data manipulation  
 - `numpy` – For numerical operations  
 
-### 📊 Data Visualization
+### Data Visualization
 - `matplotlib` – For plotting charts  
 - `seaborn` – For advanced visualizations  
 - `rich` – For styled CLI printing  
 
-### 🧼 Preprocessing & Sampling
+### Preprocessing & Sampling
 - `scikit-learn`:
   - `StandardScaler` – For feature scaling  
   - `train_test_split`, `StratifiedKFold` – For data splitting and cross-validation  
 - `SMOTE` (via `imblearn`) – For handling class imbalance  
 
-### 🤖 Machine Learning Models
+### Machine Learning Models
 - `KNeighborsClassifier`  
 - `SVC` (Support Vector Machine)  
 - `LogisticRegression`  
@@ -112,12 +112,12 @@ This project was developed using **Python** in **Visual Studio Code (VS Code)** 
 - `StackingClassifier`  
 - `XGBoost` (`xgboost`)  
 
-### 📏 Evaluation
+### Evaluation
 - `classification_report`  
 - `confusion_matrix`  
 - `cross_val_score`  
 
-### 💾 Model Saving
+### Model Saving
 - `pickle` – For saving trained models
 
 ---
